@@ -12,4 +12,4 @@ COSPHI_THRESHOLD = 0.93
 
 # STREAMLIT
 APP_TITLE = "Energy Dashboard"
-APP_LAYOUT = "wide"
+APP_LAYOUT = "centered"
