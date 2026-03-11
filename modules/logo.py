@@ -3,7 +3,7 @@ import base64
 from pathlib import Path
 
 
-def render_header(title="Energy Monitoring Dashboard", logo_path="data/logo.png"):
+def render_header(title="Energy Monitoring Dashboard", logo_path="data/logo_IPD.png"):
     logo_file = Path(logo_path)
 
     if logo_file.exists():
