@@ -3,7 +3,7 @@ import base64
 from pathlib import Path
 
 
-def render_header(title="Energy Monitoring Dashboard", logo_path="data/logo_IPD.png"):
+def render_header(title="Suivi de consommation d'énergie", logo_path="data/logo_IPD.png"):
     logo_file = Path(logo_path)
 
     if logo_file.exists():
@@ -19,7 +19,7 @@ def render_header(title="Energy Monitoring Dashboard", logo_path="data/logo_IPD.
 
         .app-header {{
             position: fixed;
-            top: 0;
+            top: 3.5rem;
             left: 0;
             width: 100%;
             height: 95px;
