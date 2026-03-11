@@ -6,7 +6,9 @@ from modules.data_loader import load_data
 from modules.cleaning import clean_data
 from modules.kpi import compute_kpi
 from modules.dashboard import compute_dashboard
+from modules.logo import display_logo
 
+display_logo()
 # =========================
 # CONFIGURATION
 # =========================
