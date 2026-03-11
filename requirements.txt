@@ -7,4 +7,4 @@ geopandas
 shapely
 openpyxl
 seaborn
-PIL
+Pillow
