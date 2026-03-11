@@ -6,7 +6,9 @@ import plotly.express as px
 from modules.data_loader import load_data
 from modules.cleaning import clean_data
 from modules.kpi import compute_kpi
+from modules.logo import display_logo
 
+display_logo()
 df, _, _ = load_data()
 df = clean_data(df)
 df = compute_kpi(df)

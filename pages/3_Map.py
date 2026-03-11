@@ -7,7 +7,9 @@ from modules.data_loader import load_data
 from modules.cleaning import clean_data
 from modules.kpi import compute_kpi
 from modules.mapping import prepare_map_data
+from modules.logo import display_logo
 
+display_logo()
 # =========================
 # LOAD DATA
 # =========================
