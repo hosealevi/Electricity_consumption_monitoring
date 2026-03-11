@@ -137,5 +137,5 @@ if df_filtre["depassement_kw"].sum() > 0:
 # PIED DE PAGE
 # =========================
 
-st.markdown("---")
-st.markdown("Système de suivi énergétique")
+# st.markdown("---")
+# st.markdown("Système de suivi énergétique")
