@@ -7,7 +7,8 @@ from modules.cleaning import clean_data
 from modules.kpi import compute_kpi
 from modules.dashboard import compute_dashboard
 from modules.logo import render_header
-
+from modules.logo import sidebar_footer
+sidebar_footer()
 render_header()
 # =========================
 # CONFIGURATION

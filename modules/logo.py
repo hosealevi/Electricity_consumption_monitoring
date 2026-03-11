@@ -56,3 +56,27 @@ def render_header(title="Suivi de consommation d'énergie", logo_path="data/logo
         """,
         unsafe_allow_html=True
     )
+
+def sidebar_footer():
+
+    st.sidebar.markdown(
+        """
+        <style>
+
+        .sidebar-footer {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            font-size: 13px;
+            color: #9aa0a6;
+        }
+
+        </style>
+
+        <div class="sidebar-footer">
+        Powered by <b>Hosea Levi</b>
+        </div>
+
+        """,
+        unsafe_allow_html=True
+    )

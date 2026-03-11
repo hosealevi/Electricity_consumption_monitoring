@@ -8,7 +8,8 @@ from modules.cleaning import clean_data
 from modules.kpi import compute_kpi
 from modules.mapping import prepare_map_data
 from modules.logo import render_header
-
+from modules.logo import sidebar_footer
+sidebar_footer()
 render_header()
 # =========================
 # LOAD DATA
