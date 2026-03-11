@@ -44,7 +44,7 @@ def render_header(title="Suivi de consommation d'énergie", logo_path="data/logo
 
         /* Push page content below fixed header */
         .block-container {{
-            padding-top: 120px;
+            padding-top: 170px;
         }}
 
         </style>
